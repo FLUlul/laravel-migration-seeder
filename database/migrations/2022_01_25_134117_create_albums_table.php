@@ -20,6 +20,7 @@ class CreateAlbumsTable extends Migration
             $table->tinyInteger('tracks');
             $table->string('genre');
             $table->date('release');
+            $table->integer('price');
 
             $table->timestamps();
         });

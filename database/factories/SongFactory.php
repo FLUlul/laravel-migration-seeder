@@ -9,7 +9,7 @@ $factory->define(Song::class, function (Faker $faker) {
     return [
         'title' => $faker -> name(),
         'duration' => $faker -> numberBetween(50, 500),
-        'price' => $faker -> numberBetween(100, 30000),
+        'price' => $faker -> numberBetween(100, 10000),
         'lyric' => $faker -> text(300),
         'genre' => $faker -> word()
     ];

@@ -10,6 +10,7 @@ class Album extends Model
         'title',
         'tracks',
         'genre',
-        'release'
+        'release',
+        'price'
     ];
 }
