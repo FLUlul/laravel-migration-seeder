@@ -18,7 +18,8 @@ class CreateAlbumsTable extends Migration
 
             $table->string('title');
             $table->tinyInteger('tracks');
-            $table->string('type');
+            $table->string('genre');
+            $table->date('release');
 
             $table->timestamps();
         });
